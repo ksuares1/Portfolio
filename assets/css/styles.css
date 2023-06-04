@@ -14,8 +14,18 @@ text-decoration: none;
 padding:20px;
 background: var(--primary-color);
 color:white;
+font-size:20px;
+border-radius:8px;
 }
 
 .about-btn{
     text-decoration: none;
+    border:1px solid var(--primary-color);
+    padding:20px;
+    color:var(--primary-color);
+    font-weight:bold;
+    font-size:20px;
+    border-radius:8px;
+    position:relative;
+    right:-15px;
 }

@@ -13,7 +13,9 @@ h1{
 .buttons{
     margin:50px;
 }
-#contact-btn{
+
+
+.contact-btn{
 text-decoration: none;
 padding:20px;
 background: var(--primary-color);
@@ -40,14 +42,45 @@ border-radius:8px;
 
 .paras{
     display: flex;
-    margin: 30px 0
+    margin: 30px 0; 
 }
 
  p {
-    background: var(--secondary-color);
+    margin: 10px;
     padding: 20px;
     border-radius: 4px;
     font-size: 18px;
     line-height: 1.5;
     text-align: center;
 }
+
+    .first-para, .second-para{
+    background: var(--secondary-color);
+    width:40%;
+    margin:0 auto;
+    }
+
+    #contact{
+        margin:50px;
+    }
+
+.email-link{
+    text-decoration:none;
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 28px;
+    cursor:pointer;
+}
+
+
+
+
+.home-link:visited{
+    color:red;
+    cursor:pointer;
+}
+.contact-header{
+    font-size:30px;
+}
+

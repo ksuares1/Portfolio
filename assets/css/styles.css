@@ -1,0 +1,21 @@
+:root{
+--primary-color:#d59bf6;
+}
+
+main{
+text-align: center;
+}
+
+.buttons{
+    margin:50px;
+}
+#contact-btn{
+text-decoration: none;
+padding:20px;
+background: var(--primary-color);
+color:white;
+}
+
+.about-btn{
+    text-decoration: none;
+}
